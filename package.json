@@ -1,0 +1,24 @@
+{
+  "name": "trending-programming-languages",
+  "version": "1.0.0",
+  "description": "trending programming languages projject",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LAAKISSI Achraf",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "eslint": "6.6.0",
+    "prettier": "1.18.2"
+  }
+}
